@@ -35,35 +35,36 @@
 \begin{document}
 \begin{titlepage}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
 \center 
 
 \includegraphics[scale=0.15]{logo2.png}\\[1cm]
 \textsc{\LARGE \bfseries دانشکده ریاضی و علوم‌کامپیوتر}\\[0.7cm] 
-\textsc{\Large \bfseries تمرین تحویلی لتک}\\[0.5cm] 
+\textsc{\Large \bfseries عنوان تمرین}\\[0.5cm] 
 \HRule \\[0.4cm]
-{ \huge \bfseries نرم‌افزار ریاضی}\\[0.4cm]
+{ \huge \bfseries اسم درس}\\[0.4cm]
 \HRule \\[1cm]
 \textsc{\LARGE \bfseries پارسا پورسیستانی-۹۹۱۳۰۳۶}\\[0.7cm]
-\today
 \end{titlepage}
 \newpage
 \rhead{
 	\includegraphics[height=25mm]{logo.png}
 	}
 \lhead{
-	\textsc{\large \bfseries  تمرین لتک}
+	\textsc{\large \bfseries  عنوان تمرین}
 }
 \chead{
-	\textsc{\large \bfseries  نرم‌افزار ریاضی}
+	\textsc{\large \bfseries  اسم درس}
 }
   
 \section*{سوال ۱.}
+
 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
   \begin{center}
     \begin{tabular}{|c|c|c|}
     \hline
-         نام & پریسا & توکلی \\
+         نام & پارسا & پورسیستانی \\
     \hline
 
 رشته &
@@ -73,8 +74,8 @@
          شغل & دانشجو & کارشناسی \\
     \hline 
     
-    شماره تماس &
-\multicolumn{2}{|c|}{09999999999}
+    شماره‌دانشجویی &
+\multicolumn{2}{|c|}{۹۹۱۳۰۳۶}
 \\
 \hline
     
@@ -84,39 +85,35 @@
 \end{center}
 \newpage
 \section*{سوال ۲.}
-ضرب خارجی:\\
-\begin{flushleft}
-$
-u = u_1i + u_2j+u_3k $
-\\
-$
-v = v_1i + v_2j +v_3k
-$
-\\
-$
-u \times v = det 
-\begin{pmatrix}
-i & j & k\\
-u_1& u_2 & u_3\\
-v_1 & v_2 & v_3
-\end{pmatrix} = 
-(u_2v_3 - u_3v_2)i + (u_3v_1 - u_1v_3)j + (u_1v_2 - u_2v_1)k
-$
-\\
-\end{flushleft}
-خواص:
-\begin{flushleft}
-$ 
-1) u \cdots (u \times v) = v \cdots (u \times v) = 0 $
-\\
+Each of the exercises below involves a choice among the master theorem templates discussed in lecture.
+For each, indicate which case applies and specify the asymptotic growth class of the function.  If no
+case applies, simply state that fact; you are not required to attempt a solution when no master theorem case
+applies.
 
-(مساحت متوازی‌الاضلاع تولید شده توسط u و v )
-$
-2) \lvert u \times v \rvert = |u||v| \sin \theta 
-$
+\begin{enumerate}
+\item $T(n) = 2 T(\lfloor n/4 \rfloor) + n^{1/2}$.
+\item $T(n) = 3 T(\lfloor n/2 \rfloor) + n \lg n$.
+\item $T(n) = 5 T(\lfloor n/5 \rfloor) + \frac{n}{\lg n}$.
+\item $T(n) = 4 T(\lfloor n/2 \rfloor) + n^2 \sqrt{n}$.
+\item $T(n) = 2 T(\lfloor n/2 \rfloor) + n \lg n$.
+\end{enumerate}
 
-\[\bot u ,  v  \iff \ u \times v = 0 \]
-\end{flushleft}
+\section*{Solutions.}
+$a = 3, b = 2$ implies a reference function $g(n) = n^{\log_2 3}$. Converting as follows,
+\begin{eqnarray*}
+y & = & \log_2 3 \\
+2^y & = & 3 \\
+y \ln 2 & = & \ln 3 \\
+y & = & \frac{\ln 3}{\ln 2} = 1.585,
+\end{eqnarray*}
+we have $g(n) = n^{1.585}$.  The ``glue'' function is $f(n) = n \lg n$.  Let $g_\epsilon (n) = n^{1.585 - \epsilon}$, for 
+$0 < \epsilon < 0.5$. Since
+\begin{eqnarray*}
+\frac{f(n)}{g_\epsilon (n)} & = & \frac{n \lg n}{n^{1.585 - \epsilon}} = \frac{\lg n}{n^{0.585 - \epsilon}} \\
+ & \leq & \frac{\lg n}{n^{0.085}} \rightarrow 0
+\end{eqnarray*}
+as $n \rightarrow \infty$, we have $f(n) = o(g_\epsilon (n))$, which implies $f(n) = O(g_\epsilon (n))$ and allows case (1) of the 
+master template.  Therefore $T(n) = \Theta(g(n)) = \Theta(n^{1.585})$.
 \newpage
 
 \section*{سوال ۳.}
