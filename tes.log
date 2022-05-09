@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.1)  9 MAY 2022 17:12
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.1)  9 MAY 2022 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,31 +1192,31 @@ tex-text;"
  (./tes.aux)
 \openout1 = `tes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 5.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1230,15 +1230,15 @@ Package caption Info: End \AtBeginDocument code.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 723.83812pt, 28.45274pt)
+* v-part:(T,H,B)=(44.9554pt, 721.56184pt, 28.45274pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=528.93675pt
-* \textheight=723.83812pt
+* \textheight=721.56184pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-70.04361pt
-* \headheight=12.0pt
+* \topmargin=-67.76733pt
+* \headheight=75.0pt
 * \headsep=28.45274pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -1255,7 +1255,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 35.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1268,9 +1268,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count375
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
  (./tes.out) (./tes.out)
 \@outlinefile=\write4
 \openout4 = `tes.out'.
@@ -1280,45 +1280,56 @@ File: logo2.png Graphic file (type bmp)
 
 
 LaTeX Font Warning: Font shape `TU/Yas(0)/m/sc' undefined
-(Font)              using `TU/Yas(0)/m/n' instead on input line 53.
+(Font)              using `TU/Yas(0)/m/n' instead on input line 42.
 
 
 LaTeX Font Warning: Font shape `TU/Yas(0)/b/sc' undefined
-(Font)              using `TU/Yas(0)/b/n' instead on input line 53.
+(Font)              using `TU/Yas(0)/b/n' instead on input line 42.
 
 [1
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-5.
+4.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-5.
+4.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-65.
+64.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-65.
+64.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 65.
+(Font)              <10> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 65.
+(Font)              <7> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 65.
+(Font)              <5> on input line 64.
+File: logo.png Graphic file (type bmp)
+<logo.png>
 
+
+Package fancyhdr Warning: \headheight is too small (75.0pt): 
+(fancyhdr)                Make it at least 77.17874pt, for example:
+(fancyhdr)                \setlength{\headheight}{77.17874pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.17874pt}.
+
+[1]
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 [][]
  []
@@ -1326,39 +1337,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 File: logo.png Graphic file (type bmp)
 <logo.png>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 62.95236pt, for example:
-(fancyhdr)                \setlength{\headheight}{62.95236pt}.
+Package fancyhdr Warning: \headheight is too small (75.0pt): 
+(fancyhdr)                Make it at least 77.17874pt, for example:
+(fancyhdr)                \setlength{\headheight}{77.17874pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-50.95236pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.17874pt}.
 
-[1]
+[2]
 File: logo.png Graphic file (type bmp)
 <logo.png>
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 62.95236pt, for example:
-(fancyhdr)                \setlength{\headheight}{62.95236pt}.
+Package fancyhdr Warning: \headheight is too small (75.0pt): 
+(fancyhdr)                Make it at least 77.17874pt, for example:
+(fancyhdr)                \setlength{\headheight}{77.17874pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-50.95236pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.17874pt}.
 
-[2] (./tes.aux)
+[3] (./tes.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `tes.out' has not changed.
-(rerunfilecheck)             Checksum: CA192321AF3C712A878A52A82B234246;91.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28116 strings out of 476919
- 591315 string characters out of 5821840
- 1051547 words of memory out of 5000000
- 47529 multiletter control sequences out of 15000+600000
+ 28113 strings out of 476919
+ 591301 string characters out of 5821840
+ 1044479 words of memory out of 5000000
+ 47526 multiletter control sequences out of 15000+600000
  415008 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,12n,130p,4814b,855s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,12n,130p,4814b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tes.pdf (3 pages).
+Output written on tes.pdf (4 pages).
